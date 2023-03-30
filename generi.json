@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/betterwrite/vue-pubsub",
+  "silent": false,
+  "commits": "conventional-commits",
+  "tag": true,
+  "version": true,
+  "push": true,
+  "publish": true
+}
