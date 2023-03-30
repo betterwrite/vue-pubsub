@@ -18,6 +18,7 @@ app.mount("#app");
 
 // ...
 
+<script setup>
 import { usePubsub } from "vue-pubsub";
 
 const pubsub = usePubsub();
@@ -25,6 +26,7 @@ const pubsub = usePubsub();
 pubsub.on("test", (data) => {
   console.log(data);
 });
+</script>
 
 // in other .vue file / setup hook
 pubsub.to("test", "Hello World!");
