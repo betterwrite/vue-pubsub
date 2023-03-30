@@ -20,5 +20,6 @@ export * from "./use";
 declare module "@vue/runtime-core" {
   interface ComponentCustomProperties {
     $pubsub: Pubsub;
+    pubsub: Pubsub;
   }
 }
