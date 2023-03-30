@@ -2,7 +2,7 @@
   "name": "vue-pubsub",
   "author": "Novout",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Pubsub Plugin (or better Event Bus) for Vue.",
   "exports": {
     ".": {
