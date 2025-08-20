@@ -17,7 +17,7 @@ export function PubsubPlugin(): Plugin {
 
 export * from "./use";
 
-declare module "@vue/runtime-core" {
+declare module "vue" {
   interface ComponentCustomProperties {
     $pubsub: Pubsub;
     pubsub: Pubsub;
