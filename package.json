@@ -60,7 +60,7 @@
     "@types/node": "^14.18.42",
     "@vitejs/plugin-vue": "^3.2.0",
     "@vue/runtime-core": "3.2.47",
-    "generi": "^0.5.2",
+    "generi": "^1.2.1",
     "tsup": "^6.7.0",
     "typescript": "^5.0.2",
     "vite": "^4.2.1",

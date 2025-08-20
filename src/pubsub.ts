@@ -10,12 +10,12 @@ export function createPubsub<T extends Channels = {}>(): Pubsub<T> {
 
       target ? target.push(callback) : data.set(key, [callback]);
     },
-    to<_T extends keyof T>(key: _T, event: Channels[keyof Channels]) {
+    to<_T extends keyof T>(key: _T, event?: Channels[keyof Channels]) {
       const target = data.get(key);
 
       const calls = [...(target ?? [])];
       calls?.map((handler) => {
-        handler(event);
+        handler(event || '')
       });
     },
   };
